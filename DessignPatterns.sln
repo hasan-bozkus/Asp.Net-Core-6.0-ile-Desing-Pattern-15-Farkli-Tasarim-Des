@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
+# 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern", "{B7D0523D-62C1-4508-B55C-41BB740A36D3}"
@@ -8,11 +8,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfRespon
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{5CC2E774-9B2F-48CB-99D5-2789DD3C5704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{E47DC07B-A65C-4C00-B46F-8427A2985818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{E47DC07B-A65C-4C00-B46F-8427A2985818}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodDesignPattern", "TemplateMethodDesignPattern", "{96B1DE17-A6CB-4843-9532-EC07287EFC2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod", "TemplateMethodDesignPattern\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{CA1FE054-50C7-4F6F-8B24-B8D6B3393610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.TemplateMethod", "TemplateMethodDesignPattern\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{CA1FE054-50C7-4F6F-8B24-B8D6B3393610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverMethodDesignPattern", "ObserverMethodDesignPattern", "{5E132AD4-8529-4972-92C8-406399B9FDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.ObserverMethod", "ObserverMethodDesignPattern\DesignPattern.ObserverMethod\DesignPattern.ObserverMethod.csproj", "{2F502431-6CD1-4FBD-99A5-9EBABC22469D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,10 @@ Global
 		{CA1FE054-50C7-4F6F-8B24-B8D6B3393610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1FE054-50C7-4F6F-8B24-B8D6B3393610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1FE054-50C7-4F6F-8B24-B8D6B3393610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F502431-6CD1-4FBD-99A5-9EBABC22469D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F502431-6CD1-4FBD-99A5-9EBABC22469D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F502431-6CD1-4FBD-99A5-9EBABC22469D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F502431-6CD1-4FBD-99A5-9EBABC22469D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +48,7 @@ Global
 		{4A71B133-EC79-4ED5-A5AD-9F36A9431ECF} = {B7D0523D-62C1-4508-B55C-41BB740A36D3}
 		{E47DC07B-A65C-4C00-B46F-8427A2985818} = {5CC2E774-9B2F-48CB-99D5-2789DD3C5704}
 		{CA1FE054-50C7-4F6F-8B24-B8D6B3393610} = {96B1DE17-A6CB-4843-9532-EC07287EFC2E}
+		{2F502431-6CD1-4FBD-99A5-9EBABC22469D} = {5E132AD4-8529-4972-92C8-406399B9FDAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A724D0D-6665-4035-8424-7DA805F8D9F9}
