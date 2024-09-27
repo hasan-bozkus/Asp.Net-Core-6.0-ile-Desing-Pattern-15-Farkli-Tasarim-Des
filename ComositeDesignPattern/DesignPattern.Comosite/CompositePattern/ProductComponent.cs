@@ -4,8 +4,8 @@
     {
         public ProductComponent(int id, string name)
         {
-            Id = id;
-            Name = name;
+             Id = id;
+             Name = name;
         }
 
         public int Id { get; set; }

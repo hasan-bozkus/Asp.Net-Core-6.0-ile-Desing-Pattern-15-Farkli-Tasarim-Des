@@ -11,9 +11,9 @@ namespace DesignPattern.Comosite.CompositePattern
 
         public ProductComposite(int id, string name)
         {
-            Id = id;
-            Name = name;
-            _components = new List<IComponent>();
+             Id = id;
+             Name = name;
+             _components = new List<IComponent>();
         }
 
         public ICollection<IComponent> Components => _components;

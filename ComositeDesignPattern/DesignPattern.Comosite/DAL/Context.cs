@@ -6,7 +6,7 @@ namespace DesignPattern.Comosite.DAL
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-3JI56T6\\SQLEXPRESS;initial catalog=DesignPattern7;integrated security=true");
+             optionsBuilder.UseSqlServer("server=DESKTOP-3JI56T6\\SQLEXPRESS;initial catalog=DesignPattern7;integrated security=true");
         }
 
         public DbSet<Product> Products { get; set; }

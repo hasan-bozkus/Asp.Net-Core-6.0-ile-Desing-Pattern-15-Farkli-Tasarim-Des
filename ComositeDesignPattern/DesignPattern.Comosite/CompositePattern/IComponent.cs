@@ -2,10 +2,10 @@
 {
     public interface IComponent
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+         public int Id { get; set; }
+         public string Name { get; set; }
 
-        int TotalCount();
-        string Display();
+         int TotalCount();
+         string Display();
     }
 }

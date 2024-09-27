@@ -11,7 +11,7 @@ namespace DesignPattern.Comosite.Controllers
 
         public DefaultController(Context context)
         {
-            _context = context;
+             _context = context;
         }
 
         public IActionResult Index()

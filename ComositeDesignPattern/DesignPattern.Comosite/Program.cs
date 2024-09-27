@@ -2,7 +2,7 @@ using DesignPattern.Comosite.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<Context>();
+builder.Services.AddDbContext<Context>(); 
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
